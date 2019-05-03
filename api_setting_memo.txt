@@ -1,0 +1,8 @@
+railsでapiを構築するにあたってCORSに関する事前設定
+
+CORS(Cross-Origin Resource Sharing)は、ブラウザが
+オリジン(HTMLを読み込んだサーバのこと)以外のサーバから
+データを取得する仕組み
+
+設定1. Gemfileの gem 'rack-cors'のコメントアウトを外す
+設定2. config/initializers/cors.rbを設定する。
